@@ -1,0 +1,17 @@
+\begin{tabular}{lcccccc}
+    \toprule
+                  & \multicolumn{3}{c}{Linear} & \multicolumn{3}{c}{Nonlinear} \\
+    \cmidrule(lr){2-4} \cmidrule(lr){5-7}
+    Method        & $p{=}10$ & $p{=}20$ & $p{=}30$ & $p{=}10$ & $p{=}20$ & $p{=}30$ \\
+    \midrule
+    PAIR-CI                                       & \textbf{0.95}\,{\scriptsize(9)} & 0.78\,{\scriptsize(30)} & 0.76\,{\scriptsize(51)} & 0.65\,{\scriptsize(7)} & 0.63\,{\scriptsize(22)} & 0.61\,{\scriptsize(34)} \\
+    Complete case                                 & 0.90\,{\scriptsize(10)} & 0.74\,{\scriptsize(29)} & 0.66\,{\scriptsize(44)} & \textbf{0.70}\,{\scriptsize(11)} & 0.61\,{\scriptsize(26)} & 0.53\,{\scriptsize(38)} \\
+    Test-wise                                     & 0.90\,{\scriptsize(10)} & 0.79\,{\scriptsize(34)} & 0.76\,{\scriptsize(58)} & 0.67\,{\scriptsize(10)} & 0.63\,{\scriptsize(32)} & 0.62\,{\scriptsize(52)} \\
+    FZ-vote                                       & 0.87\,{\scriptsize(11)} & 0.79\,{\scriptsize(36)} & 0.77\,{\scriptsize(61)} & 0.67\,{\scriptsize(11)} & 0.63\,{\scriptsize(36)} & 0.62\,{\scriptsize(60)} \\
+    FZ-Rubin (\citeauthor{witte2022multiple})     & 0.89\,{\scriptsize(11)} & 0.79\,{\scriptsize(36)} & 0.77\,{\scriptsize(61)} & 0.67\,{\scriptsize(11)} & 0.63\,{\scriptsize(35)} & 0.62\,{\scriptsize(58)} \\
+    MVPC$^\ddagger$ (\citeauthor{tu2019causal})   & \textbf{0.94}\,{\scriptsize(9)} & \textbf{0.82}\,{\scriptsize(28)} & \textbf{0.80}\,{\scriptsize(47)} & 0.70\,{\scriptsize(9)} & \textbf{0.64}\,{\scriptsize(27)} & \textbf{0.64}\,{\scriptsize(44)} \\
+    \midrule
+    \multicolumn{7}{l}{\emph{Score-based (DAG output):}} \\
+    MissDAG$^\dagger$ (\citeauthor{gao2022missdag}) & \textcolor{lightgray}{0.62\,{\scriptsize(4)}}$^\dagger$ & \textcolor{lightgray}{0.58\,{\scriptsize(17)}}$^\dagger$ & \textcolor{lightgray}{0.64\,{\scriptsize(32)}}$^\dagger$ & \textcolor{lightgray}{0.38\,{\scriptsize(3)}}$^\dagger$ & \textcolor{lightgray}{0.38\,{\scriptsize(12)}}$^\dagger$ & \textcolor{lightgray}{0.38\,{\scriptsize(21)}}$^\dagger$ \\
+    \bottomrule
+\end{tabular}

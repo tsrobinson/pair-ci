@@ -1,0 +1,91 @@
+cell,metric,baseline,baseline_label,mean_diff,ci_lo,ci_hi,n_pairs,n_clusters,cluster,paired
+ER linear p=10,shd,testwise,Test-wise,-0.74,-1.0383333333333333,-0.425,600,10,graph,bit-identical datasets
+ER linear p=10,shd,complete_case,Complete case,-0.87,-1.36,-0.4666666666666667,600,10,graph,bit-identical datasets
+ER linear p=10,shd,impute_fisherz,FZ-vote,-1.055,-1.5633333333333332,-0.5883333333333334,600,10,graph,bit-identical datasets
+ER linear p=10,shd,micd_pooled,FZ-Rubin,-0.8366666666666667,-1.24,-0.475,600,10,graph,bit-identical datasets
+ER linear p=10,shd,mvpc,MVPC,0.105,-0.18833333333333332,0.3767083333333327,600,10,graph,bit-identical datasets
+ER linear p=10,f1,testwise,Test-wise,0.03446928690975987,0.01908360084808021,0.05080916832015886,600,10,graph,bit-identical datasets
+ER linear p=10,f1,complete_case,Complete case,0.03298646705372949,0.014778145239509915,0.05489822898462968,600,10,graph,bit-identical datasets
+ER linear p=10,f1,impute_fisherz,FZ-vote,0.05905818185095827,0.03593255330244021,0.08601236323019987,600,10,graph,bit-identical datasets
+ER linear p=10,f1,micd_pooled,FZ-Rubin,0.04676748005022195,0.029282876335729312,0.06686089875922915,600,10,graph,bit-identical datasets
+ER linear p=10,f1,mvpc,MVPC,-0.006630921520424516,-0.01896182699935844,0.0072054826999967255,600,10,graph,bit-identical datasets
+ER linear p=20,shd,testwise,Test-wise,-1.4533333333333334,-1.8,-1.095,600,10,graph,bit-identical datasets
+ER linear p=20,shd,complete_case,Complete case,-3.4133333333333336,-4.650041666666667,-2.3316250000000003,600,10,graph,bit-identical datasets
+ER linear p=20,shd,impute_fisherz,FZ-vote,-2.2133333333333334,-2.528375,-1.839958333333334,600,10,graph,bit-identical datasets
+ER linear p=20,shd,micd_pooled,FZ-Rubin,-1.8816666666666666,-2.205,-1.515,600,10,graph,bit-identical datasets
+ER linear p=20,shd,mvpc,MVPC,2.38,1.7316666666666667,3.0416666666666665,600,10,graph,bit-identical datasets
+ER linear p=20,f1,testwise,Test-wise,-0.005220636765376155,-0.011486083381057981,0.0006964013558465157,600,10,graph,bit-identical datasets
+ER linear p=20,f1,complete_case,Complete case,0.0566607096770887,0.04689790475412022,0.06657492346961393,600,10,graph,bit-identical datasets
+ER linear p=20,f1,impute_fisherz,FZ-vote,-0.008630777923541251,-0.015132994787689435,-0.002815286510213768,600,10,graph,bit-identical datasets
+ER linear p=20,f1,micd_pooled,FZ-Rubin,-0.009280530521173856,-0.014984060556697348,-0.0044158830862352305,600,10,graph,bit-identical datasets
+ER linear p=20,f1,mvpc,MVPC,-0.026682722136312585,-0.030320445320859844,-0.022803314778663777,600,10,graph,bit-identical datasets
+ER linear p=30,shd,testwise,Test-wise,-4.12,-4.71,-3.5233333333333334,600,10,graph,bit-identical datasets
+ER linear p=30,shd,complete_case,Complete case,-7.986666666666666,-9.188333333333333,-6.918333333333333,600,10,graph,bit-identical datasets
+ER linear p=30,shd,impute_fisherz,FZ-vote,-6.223333333333334,-7.213333333333333,-5.254958333333334,600,10,graph,bit-identical datasets
+ER linear p=30,shd,micd_pooled,FZ-Rubin,-5.83,-6.836666666666667,-4.855,600,10,graph,bit-identical datasets
+ER linear p=30,shd,mvpc,MVPC,5.161666666666667,4.368333333333333,5.900041666666667,600,10,graph,bit-identical datasets
+ER linear p=30,f1,testwise,Test-wise,-0.0034856811416736347,-0.008846649389272107,0.001932294522155141,600,10,graph,bit-identical datasets
+ER linear p=30,f1,complete_case,Complete case,0.1640125952654841,0.14961218892135117,0.1807165363063132,600,10,graph,bit-identical datasets
+ER linear p=30,f1,impute_fisherz,FZ-vote,-0.005165265409554685,-0.013292168439211204,0.0025326750280489454,600,10,graph,bit-identical datasets
+ER linear p=30,f1,micd_pooled,FZ-Rubin,-0.005946036875820464,-0.013436708454594834,0.0014122261916959683,600,10,graph,bit-identical datasets
+ER linear p=30,f1,mvpc,MVPC,-0.031535826364439516,-0.03675352372964383,-0.026330738551670438,600,10,graph,bit-identical datasets
+ER nonlinear p=10,shd,testwise,Test-wise,-0.7516666666666667,-1.235,-0.26666666666666666,600,10,graph,bit-identical datasets
+ER nonlinear p=10,shd,complete_case,Complete case,-0.7566666666666667,-1.105,-0.38666666666666666,600,10,graph,bit-identical datasets
+ER nonlinear p=10,shd,impute_fisherz,FZ-vote,-1.705,-2.18675,-1.2216666666666667,600,10,graph,bit-identical datasets
+ER nonlinear p=10,shd,micd_pooled,FZ-Rubin,-1.2633333333333334,-1.7416666666666667,-0.7883333333333333,600,10,graph,bit-identical datasets
+ER nonlinear p=10,shd,mvpc,MVPC,-0.10833333333333334,-0.5133333333333333,0.305,600,10,graph,bit-identical datasets
+ER nonlinear p=10,f1,testwise,Test-wise,-0.03812261942460388,-0.05456508576264474,-0.020240189271418102,600,10,graph,bit-identical datasets
+ER nonlinear p=10,f1,complete_case,Complete case,-0.07426808268295834,-0.09375445238902874,-0.05263379086233391,600,10,graph,bit-identical datasets
+ER nonlinear p=10,f1,impute_fisherz,FZ-vote,-0.019804668174662365,-0.039013676571994026,0.0002411753352298677,600,10,graph,bit-identical datasets
+ER nonlinear p=10,f1,micd_pooled,FZ-Rubin,-0.024311833839885565,-0.04034437839781232,-0.007120870759899055,600,10,graph,bit-identical datasets
+ER nonlinear p=10,f1,mvpc,MVPC,-0.047141810800509935,-0.06296853819590581,-0.029991736080280974,600,10,graph,bit-identical datasets
+ER nonlinear p=20,shd,testwise,Test-wise,-4.71,-5.255,-4.13,600,10,graph,bit-identical datasets
+ER nonlinear p=20,shd,complete_case,Complete case,-4.698333333333333,-5.125041666666666,-4.281625,600,10,graph,bit-identical datasets
+ER nonlinear p=20,shd,impute_fisherz,FZ-vote,-8.403333333333334,-8.826666666666666,-7.953333333333333,600,10,graph,bit-identical datasets
+ER nonlinear p=20,shd,micd_pooled,FZ-Rubin,-7.01,-7.555041666666666,-6.413333333333333,600,10,graph,bit-identical datasets
+ER nonlinear p=20,shd,mvpc,MVPC,-0.525,-0.9566666666666667,-0.02495833333333394,600,10,graph,bit-identical datasets
+ER nonlinear p=20,f1,testwise,Test-wise,-0.013319777447019515,-0.023834311435393843,-0.001891946411415285,600,10,graph,bit-identical datasets
+ER nonlinear p=20,f1,complete_case,Complete case,0.03275560047206114,0.023696334128131383,0.04135003783532623,600,10,graph,bit-identical datasets
+ER nonlinear p=20,f1,impute_fisherz,FZ-vote,-0.005758534109895926,-0.019352503624782927,0.010891188815253467,600,10,graph,bit-identical datasets
+ER nonlinear p=20,f1,micd_pooled,FZ-Rubin,-0.0069387225819501,-0.0198077040620642,0.007903717258100258,600,10,graph,bit-identical datasets
+ER nonlinear p=20,f1,mvpc,MVPC,-0.023205509901683397,-0.03011346538468627,-0.015558663215841678,600,10,graph,bit-identical datasets
+ER nonlinear p=30,shd,testwise,Test-wise,-9.28,-9.845,-8.696666666666667,600,10,graph,bit-identical datasets
+ER nonlinear p=30,shd,complete_case,Complete case,-9.258333333333333,-9.973333333333333,-8.531666666666666,600,10,graph,bit-identical datasets
+ER nonlinear p=30,shd,impute_fisherz,FZ-vote,-16.22833333333333,-16.821666666666665,-15.623333333333333,600,10,graph,bit-identical datasets
+ER nonlinear p=30,shd,micd_pooled,FZ-Rubin,-13.843333333333334,-14.566666666666666,-13.05,600,10,graph,bit-identical datasets
+ER nonlinear p=30,shd,mvpc,MVPC,-1.0433333333333332,-1.63,-0.4432916666666673,600,10,graph,bit-identical datasets
+ER nonlinear p=30,f1,testwise,Test-wise,-0.014811703180538153,-0.02276657349582178,-0.007676553282319545,600,10,graph,bit-identical datasets
+ER nonlinear p=30,f1,complete_case,Complete case,0.13823654878138447,0.1278894699452706,0.1501509282779931,600,10,graph,bit-identical datasets
+ER nonlinear p=30,f1,impute_fisherz,FZ-vote,-0.004313062556471167,-0.016226055545179842,0.006187869014840625,600,10,graph,bit-identical datasets
+ER nonlinear p=30,f1,micd_pooled,FZ-Rubin,-0.0055203908101892326,-0.016548817727714868,0.004226843970312936,600,10,graph,bit-identical datasets
+ER nonlinear p=30,f1,mvpc,MVPC,-0.02739489099743036,-0.03239312739190794,-0.023017176914771027,600,10,graph,bit-identical datasets
+ALARM (linear) 20\%,shd,testwise,Test-wise,-8.7,-10.1,-7.333333333333333,60,20,replicate,bit-identical datasets
+ALARM (linear) 20\%,shd,complete_case,Complete case,-13.366666666666667,-14.883333333333333,-11.733333333333333,60,20,replicate,bit-identical datasets
+ALARM (linear) 20\%,shd,impute_fisherz,FZ-vote,-9.916666666666666,-11.166666666666666,-8.716666666666667,60,20,replicate,bit-identical datasets
+ALARM (linear) 20\%,shd,micd_pooled,FZ-Rubin,-9.55,-10.78375,-8.2,60,20,replicate,bit-identical datasets
+ALARM (linear) 20\%,shd,mvpc,MVPC,4.466666666666667,3.033333333333333,5.85,60,20,replicate,bit-identical datasets
+ALARM (linear) 20\%,f1,testwise,Test-wise,0.04526013815473062,0.03955776956377523,0.05084878055851531,60,20,replicate,bit-identical datasets
+ALARM (linear) 20\%,f1,complete_case,Complete case,0.09450295366896462,0.08171666115665557,0.10808152170928136,60,20,replicate,bit-identical datasets
+ALARM (linear) 20\%,f1,impute_fisherz,FZ-vote,0.05895395656512573,0.051273243221051354,0.06657543640942998,60,20,replicate,bit-identical datasets
+ALARM (linear) 20\%,f1,micd_pooled,FZ-Rubin,0.05337640830171819,0.0456236194473688,0.061128687998525694,60,20,replicate,bit-identical datasets
+ALARM (linear) 20\%,f1,mvpc,MVPC,-0.02870572155416241,-0.036553125103586145,-0.02112454320620332,60,20,replicate,bit-identical datasets
+ALARM (nonlinear) 20\%,shd,testwise,Test-wise,-17.383333333333333,-19.0,-15.8,60,20,replicate,bit-identical datasets
+ALARM (nonlinear) 20\%,shd,complete_case,Complete case,-17.683333333333334,-19.316666666666666,-15.9,60,20,replicate,bit-identical datasets
+ALARM (nonlinear) 20\%,shd,impute_fisherz,FZ-vote,-24.833333333333332,-26.63375,-22.916666666666668,60,20,replicate,bit-identical datasets
+ALARM (nonlinear) 20\%,shd,micd_pooled,FZ-Rubin,-21.95,-23.666666666666668,-20.316666666666666,60,20,replicate,bit-identical datasets
+ALARM (nonlinear) 20\%,shd,mvpc,MVPC,-8.116666666666667,-9.45,-6.9,60,20,replicate,bit-identical datasets
+ALARM (nonlinear) 20\%,f1,testwise,Test-wise,0.16949825617626382,0.15728914829925597,0.18192717480874523,60,20,replicate,bit-identical datasets
+ALARM (nonlinear) 20\%,f1,complete_case,Complete case,0.21887609344313547,0.19956003868778624,0.2389020910397575,60,20,replicate,bit-identical datasets
+ALARM (nonlinear) 20\%,f1,impute_fisherz,FZ-vote,0.20881326608311063,0.19684723462698148,0.22026196299384157,60,20,replicate,bit-identical datasets
+ALARM (nonlinear) 20\%,f1,micd_pooled,FZ-Rubin,0.19350712644327808,0.182861384441557,0.2038398547112754,60,20,replicate,bit-identical datasets
+ALARM (nonlinear) 20\%,f1,mvpc,MVPC,0.11813789544356333,0.10587999623983066,0.13088683957912148,60,20,replicate,bit-identical datasets
+HAILFINDER 20\%,shd,testwise,Test-wise,-43.13333333333333,-44.75,-41.46666666666667,60,20,replicate,bit-identical datasets
+HAILFINDER 20\%,shd,complete_case,Complete case,-18.683333333333334,-20.7,-16.582916666666673,60,20,replicate,bit-identical datasets
+HAILFINDER 20\%,shd,impute_fisherz,FZ-vote,-60.81666666666667,-62.583333333333336,-59.05,60,20,replicate,bit-identical datasets
+HAILFINDER 20\%,shd,micd_pooled,FZ-Rubin,-56.55,-60.3,-53.233333333333334,60,20,replicate,bit-identical datasets
+HAILFINDER 20\%,shd,mvpc,MVPC,-15.05084745762712,-17.482758620689655,-12.833333333333334,59,20,replicate,matched in distribution
+HAILFINDER 20\%,f1,testwise,Test-wise,0.08147016740304476,0.0649159689561331,0.09644215325691219,60,20,replicate,bit-identical datasets
+HAILFINDER 20\%,f1,complete_case,Complete case,0.32928641467746633,0.3061306538222196,0.35136592686916607,60,20,replicate,bit-identical datasets
+HAILFINDER 20\%,f1,impute_fisherz,FZ-vote,0.11073790220175482,0.0959118590937227,0.12394865670441688,60,20,replicate,bit-identical datasets
+HAILFINDER 20\%,f1,micd_pooled,FZ-Rubin,0.10069019763084791,0.07672632051492559,0.12404913043120122,60,20,replicate,bit-identical datasets
+HAILFINDER 20\%,f1,mvpc,MVPC,0.012382047675166376,-0.010619011026077835,0.0367356449501873,59,20,replicate,matched in distribution

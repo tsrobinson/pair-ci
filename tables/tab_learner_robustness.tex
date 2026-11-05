@@ -1,0 +1,13 @@
+\begin{tabular}{lcccccccc}
+    \toprule
+     & \multicolumn{3}{c}{FPR by mechanism} & \multicolumn{2}{c}{FPR by DGP} & \multicolumn{3}{c}{Power (0.3) by mechanism} \\
+    \cmidrule(lr){2-4} \cmidrule(lr){5-6} \cmidrule(lr){7-9}
+    Learner & Complete & MAR & MNAR & Lin.\ G. & Post-nl & Complete & MAR & MNAR \\
+    \midrule
+    RF, 100 trees, leaf 5 (default)      & 0.019 & 0.013 & \textcolor{red}{0.066} & \textcolor{red}{0.052} & 0.013 & 0.50 & 0.49 & 0.53 \\
+    RF, 25 trees, depth 3                & 0.046 & 0.039 & \textcolor{red}{0.064} & \textcolor{red}{0.078} & 0.021 & 0.17 & 0.20 & 0.18 \\
+    RF, 10 stumps (depth 1)              & 0.016 & 0.018 & 0.031 & 0.034 & 0.009 & 0.09 & 0.09 & 0.11 \\
+    Ridge regression (linear)            & 0.000 & 0.001 & \textcolor{red}{0.081} & 0.028 & 0.028 & 1.00 & 1.00 & 0.96 \\
+    $k$NN regression, $k{=}10$ (fixed)   & \textcolor{red}{0.066} & 0.049 & \textcolor{red}{0.106} & \textcolor{red}{0.108} & 0.039 & 0.61 & 0.63 & 0.63 \\
+    \bottomrule
+\end{tabular}

@@ -1,0 +1,17 @@
+\begin{tabular}{lcccccc}
+    \toprule
+                  & \multicolumn{3}{c}{Linear} & \multicolumn{3}{c}{Nonlinear} \\
+    \cmidrule(lr){2-4} \cmidrule(lr){5-7}
+    Method        & $p{=}10$ & $p{=}20$ & $p{=}30$ & $p{=}10$ & $p{=}20$ & $p{=}30$ \\
+    \midrule
+    PAIR-CI                                       & \textbf{6}\,{\scriptsize(1)} / 0.95 & 31\,{\scriptsize(14)} / 0.78 & 53\,{\scriptsize(28)} / 0.76 & \textbf{11}\,{\scriptsize(7)} / 0.65 & \textbf{35}\,{\scriptsize(23)} / 0.63 & \textbf{58}\,{\scriptsize(38)} / 0.61 \\
+    Complete case                                 & 6\,{\scriptsize(2)} / 0.90 & 33\,{\scriptsize(17)} / 0.74 & 61\,{\scriptsize(36)} / 0.66 & 12\,{\scriptsize(7)} / 0.70 & 40\,{\scriptsize(27)} / 0.61 & 68\,{\scriptsize(50)} / 0.53 \\
+    Test-wise                                     & 6\,{\scriptsize(2)} / 0.90 & 32\,{\scriptsize(15)} / 0.79 & 58\,{\scriptsize(29)} / 0.76 & 12\,{\scriptsize(7)} / 0.67 & 40\,{\scriptsize(25)} / 0.63 & 68\,{\scriptsize(44)} / 0.62 \\
+    FZ-vote                                       & 7\,{\scriptsize(3)} / 0.87 & 33\,{\scriptsize(15)} / 0.79 & 60\,{\scriptsize(29)} / 0.77 & 13\,{\scriptsize(8)} / 0.67 & 43\,{\scriptsize(27)} / 0.63 & 75\,{\scriptsize(48)} / 0.62 \\
+    FZ-Rubin (\citeauthor{witte2022multiple})     & 7\,{\scriptsize(2)} / 0.89 & 32\,{\scriptsize(15)} / 0.79 & 60\,{\scriptsize(29)} / 0.77 & 12\,{\scriptsize(8)} / 0.67 & 41\,{\scriptsize(27)} / 0.63 & 73\,{\scriptsize(47)} / 0.62 \\
+    MVPC$^\ddagger$ (\citeauthor{tu2019causal})   & \textbf{6}\,{\scriptsize(1)} / 0.94 & \textbf{28}\,{\scriptsize(12)} / 0.82 & \textbf{49}\,{\scriptsize(23)} / 0.80 & \textbf{11}\,{\scriptsize(7)} / 0.70 & 36\,{\scriptsize(23)} / 0.64 & 60\,{\scriptsize(39)} / 0.64 \\
+    \midrule
+    \multicolumn{7}{l}{\emph{Score-based (DAG output):}} \\
+    MissDAG$^\dagger$ (\citeauthor{gao2022missdag}) & \textcolor{lightgray}{5\,{\scriptsize(5)} / 0.62}$^\dagger$ & \textcolor{lightgray}{24\,{\scriptsize(23)} / 0.58}$^\dagger$ & \textcolor{lightgray}{36\,{\scriptsize(34)} / 0.64}$^\dagger$ & \textcolor{lightgray}{10\,{\scriptsize(10)} / 0.38}$^\dagger$ & \textcolor{lightgray}{32\,{\scriptsize(32)} / 0.38}$^\dagger$ & \textcolor{lightgray}{54\,{\scriptsize(53)} / 0.38}$^\dagger$ \\
+    \bottomrule
+\end{tabular}

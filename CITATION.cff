@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper below."
+title: "PAIR-CI replication package"
+type: software
+authors:
+  - family-names: Robinson
+    given-names: Thomas S.
+    affiliation: London School of Economics and Political Science
+  - family-names: Lall
+    given-names: Ranjit
+    affiliation: University of Oxford
+license: MIT
+repository-code: "https://github.com/tsrobinson/pair-ci"
+version: 1.0.0
+date-released: 2026-11-05
+keywords:
+  - causal discovery
+  - conditional independence testing
+  - missing data
+  - multiple imputation
+preferred-citation:
+  type: conference-paper
+  title: "PAIR-CI: Calibrated Conditional Independence Testing for Causal Discovery with Incomplete Data"
+  authors:
+    - family-names: Robinson
+      given-names: Thomas S.
+    - family-names: Lall
+      given-names: Ranjit
+  collection-title: "Advances in Neural Information Processing Systems (NeurIPS 2026)"
+  year: 2026

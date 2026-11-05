@@ -1,0 +1,40 @@
+PAIR-CI replication package
+Copyright (c) 2026 Thomas S. Robinson and Ranjit Lall
+
+The package is released under the MIT License (LICENSE), with the exceptions
+below. Each exception carries an SPDX-License-Identifier header.
+
+1. src/baselines_new.py -- GPL-3.0-or-later (LICENSES/GPL-3.0.txt).
+   Contains a Python port of micd::gaussMItest from the R package micd
+   (R. Foraita and R. Witte; GPL (>= 3)), implementing the multiple-imputation
+   Fisher-z test of Witte, Foraita and Didelez (2022), used as the FZ-Rubin
+   baseline.
+
+2. src/notears_linear.py -- Apache-2.0 (LICENSES/Apache-2.0.txt).
+   Linear NOTEARS solver modified from https://github.com/xunzheng/notears
+   (Zheng, Aragam, Ravikumar and Xing, 2018), Copyright the NOTEARS authors.
+   Changes: covariance-form loss, equal-variance squared loss only, condensed
+   into one function, called from the MissDAG M-step.
+
+3. src/missdag_gaussian.py -- NOT REDISTRIBUTED.
+   Derived from the public MissDAG code of Gao et al. (2022),
+   https://github.com/ErdunGAO/MissDAG, whose repository specifies no
+   licence. The file is excluded from the supplementary material and the public
+   repository (release/MANIFEST.txt). Without it, run_missdag_gaussian raises an
+   ImportError pointing to the original code.
+
+Third-party software used but not redistributed (installed via environment.yml,
+directly or as dependencies):
+causal-learn (MIT; KCI and MVPC), scikit-learn, NumPy, SciPy, pandas (BSD-3),
+LightGBM (MIT), XGBoost (Apache-2.0), networkx (BSD-3), matplotlib
+(Matplotlib License, PSF-based), and the optional citest package (MIT;
+https://github.com/MIDASverse/citest).
+
+Data and network structures:
+- Sachs et al. (2005) flow-cytometry data: not redistributed. data/fetch_sachs_data.sh
+  downloads the copy distributed by the bnlearn repository
+  (https://www.bnlearn.com/research/sachs05/) and checks it against the file
+  used in the paper (shape, column names, value checksum).
+- ALARM (Beinlich et al., 1989) and HAILFINDER (Abramson et al., 1996): only
+  the published graph structures are used, hard-coded as edge lists in
+  experiments/alarm.py and experiments/hailfinder.py; all data are simulated.

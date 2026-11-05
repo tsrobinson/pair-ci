@@ -1,0 +1,20 @@
+\begin{tabular}{llcccc}
+    \toprule
+    DGP & $n$ & $|\Xb|{=}2$ & $|\Xb|{=}5$ & $|\Xb|{=}10$ & Pooled FPR / power \\
+    \midrule
+    Linear Gaussian    & 500 & 0.033 & 0.043 & -- & 0.048 / 1.000 \\
+                       & 1,000 & \textcolor{red}{0.067} & 0.040 & 0.037 &  \\
+                       & 2,000 & \textcolor{red}{0.067} & \textcolor{red}{0.053} & \textcolor{red}{0.057} &  \\
+                       & 5,000 & \textcolor{red}{0.053} & 0.043 & 0.033 &  \\
+    \midrule
+    Post-nonlinear     & 500 & \textcolor{red}{0.060} & 0.047 & -- & 0.051 / 1.000 \\
+                       & 1,000 & 0.037 & \textcolor{red}{0.070} & 0.050 &  \\
+                       & 2,000 & \textcolor{red}{0.063} & 0.037 & 0.043 &  \\
+                       & 5,000 & \textcolor{red}{0.067} & 0.050 & 0.037 &  \\
+    \midrule
+    Latent confounder  & 500 & 0.040 & \textcolor{red}{0.067} & -- & 0.049 / 0.975 \\
+                       & 1,000 & \textcolor{red}{0.057} & \textcolor{red}{0.057} & 0.030 &  \\
+                       & 2,000 & \textcolor{red}{0.057} & 0.050 & \textcolor{red}{0.057} &  \\
+                       & 5,000 & 0.047 & 0.030 & 0.050 &  \\
+    \bottomrule
+\end{tabular}

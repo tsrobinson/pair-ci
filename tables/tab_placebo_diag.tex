@@ -1,0 +1,28 @@
+\begin{tabular}{llcccccc}
+    \toprule
+     & & \multicolumn{3}{c}{FPR} & \multicolumn{3}{c}{Mean null $t_{\mathrm{CI}}$} \\
+    \cmidrule(lr){3-5} \cmidrule(lr){6-8}
+    DGP & Placebo generator & $n{=}1{,}000$ & $2{,}000$ & $5{,}000$ & $n{=}1{,}000$ & $2{,}000$ & $5{,}000$ \\
+    \midrule
+    Linear Gaussian    & deployed $k$NN ($k_{\mathrm{nn}} = \lfloor n^{2/(d+2)} \rfloor$) & \textcolor{red}{0.080} & \textcolor{red}{0.187} & \textcolor{red}{0.100} & +0.63 & +1.03 & +0.70 \\
+                       & $k$NN, $k{=}8$                                       & \textcolor{red}{0.093} & \textcolor{red}{0.207} & \textcolor{red}{0.120} & +0.66 & +1.04 & +0.67 \\
+                       & $k$NN, $k{=}32$                                      & \textcolor{red}{0.100} & \textcolor{red}{0.220} & \textcolor{red}{0.133} & +0.69 & +1.09 & +0.74 \\
+                       & $k$NN, $k{=}128$                                     & \textcolor{red}{0.107} & \textcolor{red}{0.227} & \textcolor{red}{0.133} & +0.74 & +1.13 & +0.78 \\
+                       & unconditional permutation                            & \textcolor{red}{0.100} & \textcolor{red}{0.227} & \textcolor{red}{0.133} & +0.71 & +1.09 & +0.79 \\
+                       & oracle draw from $P(Y \mid \Xb)$                     & 0.000 & 0.000 & 0.000 & -0.01 & -0.02 & -0.00 \\
+    \midrule
+    Post-nonlinear     & deployed $k$NN ($k_{\mathrm{nn}} = \lfloor n^{2/(d+2)} \rfloor$) & 0.033 & 0.047 & 0.040 & +0.31 & +0.44 & +0.40 \\
+                       & $k$NN, $k{=}8$                                       & 0.047 & \textcolor{red}{0.067} & 0.040 & +0.37 & +0.48 & +0.47 \\
+                       & $k$NN, $k{=}32$                                      & 0.033 & \textcolor{red}{0.067} & \textcolor{red}{0.053} & +0.39 & +0.53 & +0.49 \\
+                       & $k$NN, $k{=}128$                                     & 0.040 & \textcolor{red}{0.080} & 0.047 & +0.42 & +0.57 & +0.51 \\
+                       & unconditional permutation                            & 0.033 & \textcolor{red}{0.087} & \textcolor{red}{0.053} & +0.38 & +0.50 & +0.49 \\
+                       & oracle draw from $P(Y \mid \Xb)$                     & 0.000 & 0.000 & 0.000 & -0.03 & -0.03 & -0.04 \\
+    \midrule
+    Latent confounder  & deployed $k$NN ($k_{\mathrm{nn}} = \lfloor n^{2/(d+2)} \rfloor$) & 0.000 & 0.000 & 0.000 & -0.03 & +0.01 & +0.04 \\
+                       & $k$NN, $k{=}8$                                       & 0.000 & 0.000 & 0.000 & -0.02 & +0.03 & -0.01 \\
+                       & $k$NN, $k{=}32$                                      & 0.000 & 0.000 & 0.000 & -0.02 & +0.06 & -0.03 \\
+                       & $k$NN, $k{=}128$                                     & 0.000 & 0.000 & 0.000 & -0.01 & +0.04 & -0.03 \\
+                       & unconditional permutation                            & 0.000 & 0.000 & 0.000 & +0.02 & +0.03 & -0.00 \\
+                       & oracle draw from $P(Y \mid \Xb)$                     & 0.000 & 0.000 & 0.000 & +0.01 & +0.07 & +0.01 \\
+    \bottomrule
+\end{tabular}

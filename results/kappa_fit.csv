@@ -1,0 +1,2 @@
+n_cells,n_inflated,spearman,median_product_calibrated,median_product_inflated,median_fpr_calibrated,median_fpr_inflated,slope,slope_se,intercept,r2,x_min_inflated,x_max_inflated
+48,25,0.8924882888611229,0.001923841177057045,0.1829339413165898,0.0,0.52,0.692705573837124,0.14658564766174143,-0.09588491575808766,0.49262456513683506,0.032712004470052056,1.3966175595661001

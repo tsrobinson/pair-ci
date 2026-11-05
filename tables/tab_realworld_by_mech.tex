@@ -1,0 +1,20 @@
+\begin{tabular}{lccccccccc}
+    \toprule
+     & \multicolumn{3}{c}{ALARM (linear)} & \multicolumn{3}{c}{ALARM (nonlinear)} & \multicolumn{3}{c}{HAILFINDER} \\
+    \cmidrule(lr){2-4} \cmidrule(lr){5-7} \cmidrule(lr){8-10}
+    Method & MAR & MNAR & Mixed & MAR & MNAR & Mixed & MAR & MNAR & Mixed \\
+    \midrule
+    PAIR-CI                                       & 24.0\,{\scriptsize[4]} & 22.5\,{\scriptsize[4]} & 24.0\,{\scriptsize[8]} & \textbf{31.5}\,{\scriptsize[5]} & \textbf{33.0}\,{\scriptsize[7]} & \textbf{33.5}\,{\scriptsize[7]} & \textbf{62.5}\,{\scriptsize[8]} & \textbf{64.0}\,{\scriptsize[8]} & \textbf{65.5}\,{\scriptsize[10]} \\
+                                                  & {\scriptsize F1 0.90, E 45} & {\scriptsize F1 0.89, E 45} & {\scriptsize F1 0.91, E 46} & {\scriptsize F1 0.80, E 33} & {\scriptsize F1 0.80, E 34} & {\scriptsize F1 0.79, E 35} & {\scriptsize F1 0.59, E 42} & {\scriptsize F1 0.59, E 42} & {\scriptsize F1 0.58, E 43} \\
+    Complete case                                 & 34.0\,{\scriptsize[7]} & 40.0\,{\scriptsize[7]} & 38.5\,{\scriptsize[7]} & 51.0\,{\scriptsize[6]} & 51.0\,{\scriptsize[7]} & 48.0\,{\scriptsize[9]} & 98.0\,{\scriptsize[14]} & \textcolor{lightgray}{66.0\,{\scriptsize[0]}}$^\dagger$ & 89.5\,{\scriptsize[27]} \\
+                                                  & {\scriptsize F1 0.85, E 52} & {\scriptsize F1 0.78, E 46} & {\scriptsize F1 0.82, E 48} & {\scriptsize F1 0.65, E 47} & {\scriptsize F1 0.49, E 35} & {\scriptsize F1 0.59, E 40} & {\scriptsize F1 0.46, E 76} & \textcolor{lightgray}{{\scriptsize F1 0.00, E 0}}$^\dagger$ & {\scriptsize F1 0.30, E 49} \\
+    Test-wise                                     & 33.0\,{\scriptsize[7]} & 34.0\,{\scriptsize[7]} & 33.0\,{\scriptsize[5]} & 52.0\,{\scriptsize[9]} & 48.0\,{\scriptsize[6]} & 52.0\,{\scriptsize[8]} & 112.5\,{\scriptsize[10]} & 103.5\,{\scriptsize[9]} & 104.5\,{\scriptsize[10]} \\
+                                                  & {\scriptsize F1 0.86, E 54} & {\scriptsize F1 0.84, E 53} & {\scriptsize F1 0.87, E 54} & {\scriptsize F1 0.61, E 51} & {\scriptsize F1 0.62, E 48} & {\scriptsize F1 0.63, E 48} & {\scriptsize F1 0.48, E 96} & {\scriptsize F1 0.49, E 89} & {\scriptsize F1 0.49, E 91} \\
+    FZ-vote                                       & 30.5\,{\scriptsize[6]} & 36.0\,{\scriptsize[5]} & 35.5\,{\scriptsize[6]} & 57.5\,{\scriptsize[9]} & 55.5\,{\scriptsize[10]} & 56.0\,{\scriptsize[8]} & 128.0\,{\scriptsize[11]} & 122.0\,{\scriptsize[9]} & 124.5\,{\scriptsize[11]} \\
+                                                  & {\scriptsize F1 0.85, E 56} & {\scriptsize F1 0.84, E 56} & {\scriptsize F1 0.85, E 56} & {\scriptsize F1 0.57, E 57} & {\scriptsize F1 0.58, E 56} & {\scriptsize F1 0.59, E 56} & {\scriptsize F1 0.45, E 112} & {\scriptsize F1 0.47, E 109} & {\scriptsize F1 0.48, E 112} \\
+    FZ-Rubin (\citeauthor{witte2022multiple})     & 30.5\,{\scriptsize[5]} & 35.0\,{\scriptsize[6]} & 34.0\,{\scriptsize[6]} & 55.5\,{\scriptsize[11]} & 53.0\,{\scriptsize[11]} & 54.0\,{\scriptsize[5]} & 121.0\,{\scriptsize[14]} & 120.0\,{\scriptsize[17]} & 120.0\,{\scriptsize[14]} \\
+                                                  & {\scriptsize F1 0.85, E 55} & {\scriptsize F1 0.84, E 55} & {\scriptsize F1 0.86, E 56} & {\scriptsize F1 0.59, E 55} & {\scriptsize F1 0.58, E 51} & {\scriptsize F1 0.62, E 54} & {\scriptsize F1 0.46, E 108} & {\scriptsize F1 0.48, E 108} & {\scriptsize F1 0.47, E 108} \\
+    MVPC$^\ddagger$ (\citeauthor{tu2019causal})   & \textbf{20.0}\,{\scriptsize[9]} & \textbf{20.0}\,{\scriptsize[5]} & \textbf{18.5}\,{\scriptsize[5]} & 42.0\,{\scriptsize[6]} & 40.0\,{\scriptsize[6]} & 40.5\,{\scriptsize[7]} & 83.0\,{\scriptsize[11]} & 72.0\,{\scriptsize[18]} & 77.5\,{\scriptsize[7]} \\
+                                                  & {\scriptsize F1 0.93, E 44} & {\scriptsize F1 0.93, E 44} & {\scriptsize F1 0.95, E 44} & {\scriptsize F1 0.66, E 39} & {\scriptsize F1 0.65, E 37} & {\scriptsize F1 0.69, E 39} & {\scriptsize F1 0.55, E 71} & {\scriptsize F1 0.57, E 63} & {\scriptsize F1 0.56, E 66} \\
+    \bottomrule
+\end{tabular}

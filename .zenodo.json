@@ -1,0 +1,11 @@
+{
+  "title": "PAIR-CI replication package",
+  "upload_type": "software",
+  "description": "Code, result files and table builders for 'PAIR-CI: Calibrated Conditional Independence Testing for Causal Discovery with Incomplete Data' (Robinson and Lall, NeurIPS 2026). See README.md for reproduction instructions and NOTICE for third-party licences.",
+  "creators": [
+    {"name": "Robinson, Thomas S.", "affiliation": "London School of Economics and Political Science"},
+    {"name": "Lall, Ranjit", "affiliation": "University of Oxford"}
+  ],
+  "license": "MIT",
+  "keywords": ["causal discovery", "conditional independence testing", "missing data", "multiple imputation"]
+}

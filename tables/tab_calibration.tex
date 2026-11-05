@@ -1,0 +1,18 @@
+\begin{tabular}{llccc}
+    \toprule
+    Test & Variant & Complete & MAR & MNAR \\
+    \midrule
+    PAIR-CI        & integrated (MICE, $M{=}5$)   & 0.018 & 0.021 & \textbf{0.036} \\
+    \midrule
+    Fisher-$Z$     & complete-case                & 0.050 & 0.049 & 0.050 \\
+                   & single imputation            & -- & \textcolor{red}{0.103} & \textcolor{red}{0.350} \\
+                   & Rubin's rules                & -- & \textcolor{red}{0.058} & \textcolor{red}{0.282} \\
+    \midrule
+    GCM (RF)       & complete-case                & \textcolor{red}{0.215} & \textcolor{red}{0.192} & \textcolor{red}{0.191} \\
+                   & imputed                      & -- & \textcolor{red}{0.254} & \textcolor{red}{0.415} \\
+    \midrule
+    KCI (default)  & complete-case                & \textcolor{red}{0.147} & \textcolor{red}{0.136} & \textcolor{red}{0.158} \\
+                   & imputed                      & -- & \textcolor{red}{0.329} & \textcolor{red}{0.447} \\
+    KCI (tuned)$^\dagger$ & complete-case & \textcolor{red}{0.072} & -- & -- \\
+    \bottomrule
+\end{tabular}

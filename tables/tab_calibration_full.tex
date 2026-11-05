@@ -1,0 +1,20 @@
+\begin{tabular}{llccc}
+    \toprule
+    Mechanism & $n$ & $|\Xb|{=}2$ & $|\Xb|{=}5$ & $|\Xb|{=}10$ \\
+    \midrule
+    Complete  & 500 & 0.003 & 0.010 & -- \\
+              & 1,000 & 0.003 & 0.010 & 0.033 \\
+              & 2,000 & 0.003 & 0.010 & \textcolor{red}{0.053} \\
+              & 5,000 & 0.000 & 0.010 & \textcolor{red}{0.067} \\
+    \midrule
+    MAR       & 500 & 0.000 & 0.000 & -- \\
+              & 1,000 & 0.003 & 0.013 & 0.047 \\
+              & 2,000 & 0.003 & 0.003 & \textcolor{red}{0.073} \\
+              & 5,000 & 0.000 & 0.013 & \textcolor{red}{0.073} \\
+    \midrule
+    MNAR      & 500 & 0.007 & 0.030 & -- \\
+              & 1,000 & 0.003 & 0.040 & \textcolor{red}{0.067} \\
+              & 2,000 & 0.010 & \textcolor{red}{0.060} & \textcolor{red}{0.077} \\
+              & 5,000 & 0.027 & 0.020 & \textcolor{red}{0.057} \\
+    \bottomrule
+\end{tabular}

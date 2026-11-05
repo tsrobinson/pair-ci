@@ -1,0 +1,33 @@
+# Explicit contents of the supplementary material / public repository.
+# One path per line, relative to pair-ci_replication/. Directories are
+# included recursively; lines starting with "!" are exclusions.
+README.md
+LICENSE
+NOTICE
+CITATION.cff
+.zenodo.json
+.gitignore
+LICENSES/
+environment.yml
+check_env.py
+reproduce_all.sh
+src/
+experiments/
+analysis/
+slurm/
+data/fetch_sachs_data.sh
+results/
+tables/
+figures/
+release/MANIFEST.txt
+release/make_release.sh
+!src/missdag_gaussian.py
+!analysis/check_comment_only_edits.py
+!results/superseded_mar2fix/
+!results/gcm_ols_smoke.csv
+!results/kappa_trace_smoke.csv
+!results/pooling_validity_smoke.csv
+!results/kci_gcm_audit_preview.csv
+!**/__pycache__/
+!**/*.pyc
+!**/.DS_Store

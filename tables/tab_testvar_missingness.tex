@@ -1,0 +1,25 @@
+\begin{tabular}{lllcccc}
+    \toprule
+     & & & \multicolumn{2}{c}{Imputed labels (deployed)} & \multicolumn{2}{c}{Labels observed} \\
+    \cmidrule(lr){4-5} \cmidrule(lr){6-7}
+    DGP & Mechanism & Missing on & FPR & Power (0.3) & FPR & Power (0.3) \\
+    \midrule
+    Linear Gaussian  & MAR   & $Z$            & 0.036 & 0.53 & 0.024 & 0.43 \\
+                     &       & $Y$            & 0.024 & 0.50 & 0.024 & 0.50 \\
+                     &       & $Y$ and $Z$    & 0.020 & 0.52 & 0.012 & 0.38 \\
+                     &       & $\Xb$ and $Z$  & 0.032 & 0.48 & 0.008 & 0.41 \\
+                     & MNAR  & $Z$            & 0.036 & 0.54 & 0.016 & 0.42 \\
+                     &       & $Y$            & 0.032 & 0.52 & 0.012 & 0.39 \\
+                     &       & $Y$ and $Z$    & 0.012 & 0.39 & 0.008 & 0.29 \\
+                     &       & $\Xb$ and $Z$  & \textcolor{red}{0.068} & 0.53 & 0.020 & 0.44 \\
+    \midrule
+    Post-nonlinear   & MAR   & $Z$            & 0.000 & 0.23 & 0.000 & 0.12 \\
+                     &       & $Y$            & 0.000 & 0.21 & 0.004 & 0.20 \\
+                     &       & $Y$ and $Z$    & 0.000 & 0.17 & 0.004 & 0.10 \\
+                     &       & $\Xb$ and $Z$  & 0.004 & 0.22 & 0.004 & 0.14 \\
+                     & MNAR  & $Z$            & 0.004 & 0.19 & 0.004 & 0.18 \\
+                     &       & $Y$            & 0.008 & 0.13 & 0.004 & 0.12 \\
+                     &       & $Y$ and $Z$    & 0.000 & 0.12 & 0.000 & 0.07 \\
+                     &       & $\Xb$ and $Z$  & 0.020 & 0.36 & 0.024 & 0.23 \\
+    \bottomrule
+\end{tabular}

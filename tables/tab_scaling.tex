@@ -1,0 +1,17 @@
+\begin{tabular}{lcccccc}
+    \toprule
+                  & \multicolumn{3}{c}{Linear} & \multicolumn{3}{c}{Nonlinear} \\
+    \cmidrule(lr){2-4} \cmidrule(lr){5-7}
+    Method        & $p{=}10$ & $p{=}20$ & $p{=}30$ & $p{=}10$ & $p{=}20$ & $p{=}30$ \\
+    \midrule
+    PAIR-CI                                       & \textbf{6}\,{\scriptsize(1)} & 31\,{\scriptsize(14)} & 53\,{\scriptsize(28)} & \textbf{11}\,{\scriptsize(7)} & \textbf{35}\,{\scriptsize(23)} & \textbf{58}\,{\scriptsize(38)} \\
+    Complete case                                 & 6\,{\scriptsize(2)} & 33\,{\scriptsize(17)} & 61\,{\scriptsize(36)} & 12\,{\scriptsize(7)} & 40\,{\scriptsize(27)} & 68\,{\scriptsize(50)} \\
+    Test-wise                                     & 6\,{\scriptsize(2)} & 32\,{\scriptsize(15)} & 58\,{\scriptsize(29)} & 12\,{\scriptsize(7)} & 40\,{\scriptsize(25)} & 68\,{\scriptsize(44)} \\
+    FZ-vote                                       & 7\,{\scriptsize(3)} & 33\,{\scriptsize(15)} & 60\,{\scriptsize(29)} & 13\,{\scriptsize(8)} & 43\,{\scriptsize(27)} & 75\,{\scriptsize(48)} \\
+    FZ-Rubin (\citeauthor{witte2022multiple})     & 7\,{\scriptsize(2)} & 32\,{\scriptsize(15)} & 60\,{\scriptsize(29)} & 12\,{\scriptsize(8)} & 41\,{\scriptsize(27)} & 73\,{\scriptsize(47)} \\
+    MVPC$^\ddagger$ (\citeauthor{tu2019causal})   & \textbf{6}\,{\scriptsize(1)} & \textbf{28}\,{\scriptsize(12)} & \textbf{49}\,{\scriptsize(23)} & \textbf{11}\,{\scriptsize(7)} & 36\,{\scriptsize(23)} & 60\,{\scriptsize(39)} \\
+    \midrule
+    \multicolumn{7}{l}{\emph{Score-based (DAG output):}} \\
+    MissDAG$^\dagger$ (\citeauthor{gao2022missdag}) & \textcolor{lightgray}{5\,{\scriptsize(5)}}$^\dagger$ & \textcolor{lightgray}{24\,{\scriptsize(23)}}$^\dagger$ & \textcolor{lightgray}{36\,{\scriptsize(34)}}$^\dagger$ & \textcolor{lightgray}{10\,{\scriptsize(10)}}$^\dagger$ & \textcolor{lightgray}{32\,{\scriptsize(32)}}$^\dagger$ & \textcolor{lightgray}{54\,{\scriptsize(53)}}$^\dagger$ \\
+    \bottomrule
+\end{tabular}

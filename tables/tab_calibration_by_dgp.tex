@@ -1,0 +1,13 @@
+\begin{tabular}{l*{6}{c}}
+    \toprule
+                  & \multicolumn{2}{c}{Linear Gaussian} & \multicolumn{2}{c}{Post-nonlinear} & \multicolumn{2}{c}{Latent confounder} \\
+    \cmidrule(lr){2-3} \cmidrule(lr){4-5} \cmidrule(lr){6-7}
+    Method        & MAR & MNAR & MAR & MNAR & MAR & MNAR \\
+    \midrule
+    PAIR-CI        & 0.041 & \textcolor{red}{0.070} & 0.021 & 0.038 & 0.001 & 0.000 \\
+    FZ-single      & \textcolor{red}{0.105} & \textcolor{red}{0.488} & \textcolor{red}{0.121} & \textcolor{red}{0.465} & \textcolor{red}{0.083} & \textcolor{red}{0.097} \\
+    FZ-Rubin       & \textcolor{red}{0.055} & \textcolor{red}{0.408} & \textcolor{red}{0.060} & \textcolor{red}{0.388} & \textcolor{red}{0.060} & 0.049 \\
+    GCM (Imputed)  & \textcolor{red}{0.364} & \textcolor{red}{0.587} & \textcolor{red}{0.321} & \textcolor{red}{0.565} & \textcolor{red}{0.077} & \textcolor{red}{0.094} \\
+    KCI (Imputed)  & \textcolor{red}{0.260} & \textcolor{red}{0.513} & \textcolor{red}{0.413} & \textcolor{red}{0.507} & \textcolor{red}{0.313} & \textcolor{red}{0.320} \\
+    \bottomrule
+\end{tabular}

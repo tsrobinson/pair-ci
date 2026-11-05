@@ -1,0 +1,22 @@
+\begin{tabular}{llccccccccc}
+    \toprule
+     & & \multicolumn{3}{c}{Complete} & \multicolumn{3}{c}{MAR} & \multicolumn{3}{c}{MNAR} \\
+    \cmidrule(lr){3-5} \cmidrule(lr){6-8} \cmidrule(lr){9-11}
+    DGP & $n$ & $|\Xb|{=}2$ & 5 & 10 & $|\Xb|{=}2$ & 5 & 10 & $|\Xb|{=}2$ & 5 & 10 \\
+    \midrule
+    Lin.\ Gaussian   & 500 & 0.01 & 0.01 & -- & 0.00 & 0.00 & -- & 0.00 & \textcolor{red}{0.09} & -- \\
+                     & 1,000 & 0.01 & 0.02 & \textcolor{red}{0.07} & 0.01 & 0.04 & \textcolor{red}{0.06} & 0.00 & \textcolor{red}{0.08} & \textcolor{red}{0.14} \\
+                     & 2,000 & 0.00 & 0.03 & \textcolor{red}{0.09} & 0.00 & 0.01 & \textcolor{red}{0.14} & 0.02 & \textcolor{red}{0.09} & \textcolor{red}{0.14} \\
+                     & 5,000 & 0.00 & 0.01 & \textcolor{red}{0.16} & 0.00 & 0.03 & \textcolor{red}{0.16} & 0.04 & 0.04 & \textcolor{red}{0.13} \\
+    \midrule
+    Post-nonlinear   & 500 & 0.00 & 0.02 & -- & 0.00 & 0.00 & -- & 0.02 & 0.00 & -- \\
+                     & 1,000 & 0.00 & 0.01 & 0.03 & 0.00 & 0.00 & \textcolor{red}{0.08} & 0.01 & 0.04 & \textcolor{red}{0.06} \\
+                     & 2,000 & 0.00 & 0.00 & \textcolor{red}{0.07} & 0.00 & 0.00 & \textcolor{red}{0.08} & 0.01 & \textcolor{red}{0.09} & \textcolor{red}{0.09} \\
+                     & 5,000 & 0.00 & 0.02 & 0.04 & 0.00 & 0.01 & \textcolor{red}{0.06} & 0.04 & 0.02 & 0.04 \\
+    \midrule
+    Latent conf.     & 500 & 0.00 & 0.00 & -- & 0.00 & 0.00 & -- & 0.00 & 0.00 & -- \\
+                     & 1,000 & 0.00 & 0.00 & 0.00 & 0.00 & 0.00 & 0.00 & 0.00 & 0.00 & 0.00 \\
+                     & 2,000 & 0.01 & 0.00 & 0.00 & 0.01 & 0.00 & 0.00 & 0.00 & 0.00 & 0.00 \\
+                     & 5,000 & 0.00 & 0.00 & 0.00 & 0.00 & 0.00 & 0.00 & 0.00 & 0.00 & 0.00 \\
+    \bottomrule
+\end{tabular}

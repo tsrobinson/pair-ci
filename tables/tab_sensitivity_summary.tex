@@ -1,0 +1,15 @@
+\begin{tabular}{lllll}
+    \toprule
+    Factor & Levels & Metric & Values & Detail \\
+    \midrule
+    $M$ (imputations) & 3 / 5 / 10 / 20 & power at 0.3, Complete & 0.26 / 0.27 / 0.26 / 0.24 & App.~\ref{app:m_sensitivity} \\
+    $M$ (imputations) & 3 / 5 / 10 / 20 & power at 0.3, MAR & 0.25 / 0.29 / 0.29 / 0.32 & App.~\ref{app:m_sensitivity} \\
+    $M$ (imputations) & 3 / 5 / 10 / 20 & power at 0.3, MNAR & 0.34 / 0.33 / 0.36 / 0.35 & App.~\ref{app:m_sensitivity} \\
+    $K$ (folds) & 3 / 5 / 10 & median SHD, $p{=}10$ nonlinear MAR & 10.0 / 10.0 / 10.0 & App.~\ref{app:sensitivity} \\
+    Joint grid ($M, K$, trees, leaf) & 11 configurations & median SHD range & 10.0--11.0 & App.~\ref{app:sensitivity} \\
+    Learner & RF / ExtraTrees / LightGBM / LightGBM (tuned) / XGBoost & FPR, MNAR & 0.06 / 0.09 / 0.01 / 0.01 / 0.01 & App.~\ref{app:learner_comparison} \\
+     &  & power at 0.3, MNAR & 0.35 / 0.45 / 0.23 / 0.21 / 0.23 &  \\
+    $\alpha$ & 0.01 / 0.05 / 0.1 / 0.15 / 0.2 & median F1, $p{=}10$ MAR & 0.62 / 0.71 / 0.71 / 0.72 / 0.71 & App.~\ref{app:pr_frontier} \\
+    $\alpha$ & 0.01 / 0.05 / 0.1 / 0.15 / 0.2 & median F1, $p{=}10$ MNAR & 0.62 / 0.71 / 0.72 / 0.72 / 0.71 & App.~\ref{app:pr_frontier} \\
+    \bottomrule
+\end{tabular}

@@ -1,0 +1,19 @@
+\begin{tabular}{lcccccccccccc}
+    \toprule
+     & & \multicolumn{3}{c}{DGP} & \multicolumn{4}{c}{$n$} & \multicolumn{3}{c}{$|\Xb|$} & \\
+    \cmidrule(lr){3-5} \cmidrule(lr){6-9} \cmidrule(lr){10-12}
+    Configuration & Pooled & Lin.\ G. & Post-nl & Latent & 500 & 1{,}000 & 2{,}000 & 5{,}000 & 2 & 5 & 10 & Power \\
+    \midrule
+    GCM, RF-50, cross-fitted (Table 1)   & \textcolor{red}{0.229} & \textcolor{red}{0.355} & \textcolor{red}{0.274} & \textcolor{red}{0.056} & \textcolor{red}{0.208} & \textcolor{red}{0.217} & \textcolor{red}{0.240} & \textcolor{red}{0.249} & \textcolor{red}{0.068} & \textcolor{red}{0.188} & \textcolor{red}{0.430} & 0.969 \\
+    GCM, RF-100, cross-fitted            & \textcolor{red}{0.231} & \textcolor{red}{0.355} & \textcolor{red}{0.280} & \textcolor{red}{0.059} & \textcolor{red}{0.208} & \textcolor{red}{0.225} & \textcolor{red}{0.237} & \textcolor{red}{0.254} & \textcolor{red}{0.076} & \textcolor{red}{0.188} & \textcolor{red}{0.429} & 0.969 \\
+    GCM, RF-400, cross-fitted            & \textcolor{red}{0.232} & \textcolor{red}{0.354} & \textcolor{red}{0.288} & \textcolor{red}{0.054} & \textcolor{red}{0.203} & \textcolor{red}{0.224} & \textcolor{red}{0.242} & \textcolor{red}{0.258} & \textcolor{red}{0.080} & \textcolor{red}{0.184} & \textcolor{red}{0.432} & 0.970 \\
+    GCM, RF-50, honest OOB               & \textcolor{red}{0.216} & \textcolor{red}{0.330} & \textcolor{red}{0.259} & \textcolor{red}{0.058} & \textcolor{red}{0.191} & \textcolor{red}{0.208} & \textcolor{red}{0.222} & \textcolor{red}{0.242} & \textcolor{red}{0.072} & \textcolor{red}{0.164} & \textcolor{red}{0.412} & 0.969 \\
+    GCM, RF-100, honest OOB              & \textcolor{red}{0.218} & \textcolor{red}{0.341} & \textcolor{red}{0.260} & \textcolor{red}{0.053} & \textcolor{red}{0.187} & \textcolor{red}{0.222} & \textcolor{red}{0.226} & \textcolor{red}{0.236} & \textcolor{red}{0.068} & \textcolor{red}{0.166} & \textcolor{red}{0.420} & 0.970 \\
+    GCM, RF-400, honest OOB              & \textcolor{red}{0.214} & \textcolor{red}{0.330} & \textcolor{red}{0.259} & \textcolor{red}{0.053} & \textcolor{red}{0.186} & \textcolor{red}{0.207} & \textcolor{red}{0.218} & \textcolor{red}{0.246} & \textcolor{red}{0.066} & \textcolor{red}{0.164} & \textcolor{red}{0.413} & 0.969 \\
+    \midrule
+    KCI, default (Table 1)               & \textcolor{red}{0.144} & \textcolor{red}{0.152} & \textcolor{red}{0.138} & \textcolor{red}{0.144} & \textcolor{red}{0.166} & \textcolor{red}{0.123} & -- & -- & \textcolor{red}{0.073} & \textcolor{red}{0.144} & \textcolor{red}{0.216} & 0.883 \\
+    KCI, standardised inputs             & \textcolor{red}{0.143} & \textcolor{red}{0.142} & \textcolor{red}{0.134} & \textcolor{red}{0.154} & \textcolor{red}{0.147} & \textcolor{red}{0.140} & -- & -- & \textcolor{red}{0.061} & \textcolor{red}{0.143} & \textcolor{red}{0.226} & 0.890 \\
+    KCI, + median-heuristic width        & \textcolor{red}{0.078} & \textcolor{red}{0.077} & \textcolor{red}{0.088} & \textcolor{red}{0.070} & \textcolor{red}{0.084} & \textcolor{red}{0.073} & -- & -- & \textcolor{red}{0.057} & \textcolor{red}{0.072} & \textcolor{red}{0.107} & 0.994 \\
+    KCI, + spectral null (tuned)         & \textcolor{red}{0.072} & \textcolor{red}{0.075} & \textcolor{red}{0.068} & \textcolor{red}{0.072} & \textcolor{red}{0.082} & \textcolor{red}{0.062} & -- & -- & 0.044 & \textcolor{red}{0.069} & \textcolor{red}{0.102} & 0.991 \\
+    \bottomrule
+\end{tabular}
