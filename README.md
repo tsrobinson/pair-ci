@@ -1,9 +1,13 @@
 # PAIR-CI replication package
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23976940.svg)](https://doi.org/10.5281/zenodo.23976940)
+
 Code, results and table builders for **PAIR-CI: Calibrated Conditional
 Independence Testing for Causal Discovery with Incomplete Data** (Thomas S.
 Robinson and Ranjit Lall, NeurIPS 2026). Repository:
-<https://github.com/tsrobinson/pair-ci>. The same files cover the submitted
+<https://github.com/tsrobinson/pair-ci>; archived on Zenodo at
+<https://doi.org/10.5281/zenodo.23976940> (all versions; v1.0.0 is
+10.5281/zenodo.23976941). The same files cover the submitted
 version; [Changes since the submitted version](#changes-since-the-submitted-version)
 lists what differs. To cite the paper or this code, see `CITATION.cff`.
 

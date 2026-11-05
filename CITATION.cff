@@ -11,6 +11,7 @@ authors:
     affiliation: University of Oxford
 license: MIT
 repository-code: "https://github.com/tsrobinson/pair-ci"
+doi: 10.5281/zenodo.23976940
 version: 1.0.0
 date-released: 2026-11-05
 keywords:
